@@ -1,0 +1,66 @@
+What is SAP ABAP?
+What is HANA? & its benefits?
+Have you worked on s4 HANA? (CDS View, AMDP)?
+I did not worked on it, however if I get chance I can quickly understand it & start working.
+
+Introduction. roles & responsibilities
+Project.
+
+SQL:
+select single, select upto 1 rows, difference between them?
+For all entries,
+what is joins & types of joins in sap abap?
+queries on joins.
+
+
+
+RICEF - Reports, integration, conversion, enhancement, forms.
+    Reports ??? Classical
+    integration??? ODATA, BAPI, RFC, IDOC, PROXY
+    conversion??? BDC,
+    enhancement?? BADI, USER EXIST,
+    forms??? SMART FORMS, ADOBE FORM.
+
+MPP
+
+conditional statements.
+
+    New Syntaxes--> new, read statement, inline declaration in sql, corresponding
+2.  Internal Table --> *
+3.  Open SQL
+4.  Joins
+5.  For All Entries
+7.  FM, RFM
+8.  Reports
+10. ALV
+11. Smartforms- I have little ideas but haven't used it
+12. BDC- least important
+13. MPP-
+14  DDIC
+15. OOPABAP
+16. BADI
+17  IDOC
+18. BAPI
+19. DEBUGGING
+20. Customer exists
+21. Enhancement
+    ODATA
+    ADOBE FORMS'/
+
+
+
+database table processing = select, modify, update, insert, delete
+Internal table processing = modify, update, insert, delete, collect, append
+give me example for modify, update, insert, delete, collect, append on internal table. also give interview question on it and explain with example.
+
+append collect insert
+
+loop at IT into wa where fieldName = value
+loop at IT into wa from index
+loop at IT assigning fs from index
+new abap syntaxes
+----------------------------
+
+
+
+

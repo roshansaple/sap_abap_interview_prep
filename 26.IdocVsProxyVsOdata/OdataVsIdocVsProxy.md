@@ -109,3 +109,31 @@ Although **IDoc, OData, and Proxy** are all used for data exchange, they are des
 > IDoc, Proxy, and OData are all integration technologies but serve different purposes. IDoc is mainly used for asynchronous data exchange and master data distribution between systems. Proxy is used for real-time integration through PI/PO or web services and supports both synchronous and asynchronous communication. OData is a REST-based service used to expose SAP data to Fiori, mobile, and external applications. In short, IDoc is document-based integration, Proxy is enterprise application integration, and OData is API-based integration for user interfaces and external consumers.
 
 This concise explanation is usually what interviewers expect from a 3-year experienced SAP ABAP developer.
+
+Real-time system integration means data is sent from one system to another immediately when an event occurs, without waiting for a batch job or manual processing.
+
+Simple Example
+
+Imagine a customer places an order on a website.
+
+Real-Time Integration (Proxy)
+Customer clicks Submit Order.
+Website sends the order to SAP immediately.
+SAP processes it instantly.
+SAP sends back an order number.
+Customer sees the confirmation within seconds.
+
+This is real-time integration because the sending system gets an immediate response.
+
+Non-Real-Time Integration (IDoc)
+Customer places an order.
+System creates an IDoc.
+IDoc waits in a queue.
+It is processed later by a background job.
+Target system receives the data after some delay.
+
+This is asynchronous communication, not real-time.
+
+Interview Answer
+
+Real-time system integration means data is exchanged immediately between systems when a business event occurs. The sender does not wait for batch processing and receives an instant response from the receiving system. In SAP, Proxy and Web Services are commonly used for real-time integration, while IDocs are generally used for asynchronous data transfer.
